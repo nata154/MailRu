@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG scope tests" verbose="2" parallel="none">
+
+    <test name="All tests">
+        <packages>
+            <package name="com.nata.test"></package>
+        </packages>
+    </test>
+
+</suite>
+

@@ -1,0 +1,3 @@
+mvn -Dbrowser=chrome -Dsurefire.suiteXmlFiles=src\test\resources\Module8_MailRu_Test.xml clean test
+
+mvn -Dbrowser=chrome -Denvironment=config -Dsurefire.suiteXmlFiles=src\test\resources\Module8_MailRu_Test.xml clean test

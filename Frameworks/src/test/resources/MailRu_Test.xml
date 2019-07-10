@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG scope tests" parallel="methods" thread-count="2">
+    <!--<listeners>-->
+    <!--<listener class-name="com.nata.MailRuTestsScope.listeners.Listeners_TestNG"></listener>-->
+    <!--</listeners>-->
+
+    <test name="All tests">
+        <packages>
+            <package name="com.nata.test"></package>
+        </packages>
+    </test>
+
+
+</suite>
